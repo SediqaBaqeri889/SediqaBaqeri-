@@ -1,0 +1,2 @@
+# SediqaBaqeri-
+Hi👋 l'msediqa,☺️😊
