@@ -1,0 +1,225 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sediqa Baqeri | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"/>
+  <style>
+    img{
+        border-radius: 550px;
+        height: 310px;
+        width: 310px;
+    }
+    body {
+      background: #f1f5f9;
+      color: #045677;
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+    }
+
+    header {
+      background: #3F72AF;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      }
+    nav a {
+      margin: 0 1rem;
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      color: #F9F7F7;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    section {
+      background: black;
+      border-radius: 10px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    }
+
+    h2 {
+      color: #3F72AF;
+      margin-bottom: 1rem;
+    }
+
+    /* Timeline */
+    .timeline {
+      position: relative;
+      padding-left: 30px;
+      border-left: 3px solid #3F72AF;
+    }
+
+    .timeline-item {
+      margin-bottom: 1.5rem;
+    }
+
+    .timeline-item::before {
+      content: "●";
+      color: #3F72AF;
+      position: absolute;
+      left: -10px;
+      font-size: 1.2rem;
+    }
+
+    .timeline-item span {
+      font-weight: bold;
+      color: #112D4E;
+    }
+
+    /* Project Cards */
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: #f1f5f9;
+      border-radius: 10px;
+      padding: 1rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+
+    .card h3 {
+      margin-bottom: 0.5rem;
+      color: #3F72AF;
+    }
+
+    .card a {
+      display: inline-block;
+      margin-top: 0.5rem;
+      color: #112D4E;
+      text-decoration: underline;
+      font-size: 0.9rem;
+    }
+    footer {
+      background-color:  #045677;
+      color:black;
+      padding: 1rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sediqa Baqeri</h1>
+    <p>Electrical Engineer | Web Designer | Social Activist</p>
+    <section> 🌸S🌸  Sediqa
+        <section>
+    <img src="photo_2025-05-31_10-54-28.jpg" alt="">
+    <nav>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+    </nav>
+  </header>
+  <div class="container">
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am an Electrical Engineering graduate from Herat, currently working as a social worker and computer instructor. I'm also a web design student at Code to Inspire. I'm passionate about digital literacy for women and girls in Afghanistan.</p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li>Electrical Engineering – Herat University</li>
+        <li>High School – Jabrail Girls School</li>
+        <li>Computer & English Skills – JRS</li>
+        <li>English Courses – Charda Museum Center</li>
+      </ul>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Microsoft Word, Excel, PowerPoint</li>
+        <li>Dari & English Typing</li>
+        <li>Basic Database Knowledge</li>
+        <li>Languages: Dari, Pashto, English, Basic Turkish</li>
+      </ul>
+    </section>
+     <section id="experience">
+      <h2>Work Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span>2023 – Present:</span> Social Worker at AIM Organization
+        </div>
+        <div class="timeline-item">
+          <span>2021 – 2023:</span> Computer Instructor – Qalam Sabz
+        </div>
+        <div class="timeline-item">
+          <span>2020 – 2021:</span> Teacher – Tajalli Afkar Center (Part-time)
+        </div>
+        <div class="timeline-item">
+          <span>2019 – 2020:</span> English Teacher – Ansari Institute
+        </div>
+        <div class="timeline-item">
+          <span>2019 – 2025:</span> Staff – CBMHP Program
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-grid">
+
+        <div class="card">
+          <img src="photo.JPG" alt="Project 1">
+          <h3>NGO Website</h3>
+          <p>Developed a responsive website for a local NGO to promote community services.</p>
+          <a href="🎬 sadiqa's Theater 🎬.html" target="_blank">View Project</a>
+        </div>
+
+        <div class="card">
+          <img src="phpto1.JPG" alt="Project 2">
+          <h3>Personal Portfolio</h3>
+          <p>This website! Built as a personal branding and career showcase.</p>
+          <a href="Welcome toGreenLeaf Park.html" target="_blank">View Portfolio</a>
+        </div>
+       <div class="card">
+          <img src="download (17).jpg" alt="Project 2">
+         <h3> Personal Portfolio</h3>
+          <p>This website! Built as a personal branding and career showcase.</p>
+          <a href="welcom to Afghanistan for visiting many of Aghanistan cityes.html" target="_blank">View Portfolio</a>
+        </div>
+        <div class="card">
+          <img src="photo_2025-05-30_23-03-10.jpg" alt="Project 3">
+          <h3>Community Computer Course</h3>
+          <p>Organized and taught digital literacy classes for teenage girls.</p>
+          <a href="video_2025-06-12_22-41-14.mp4" target="_blank">Course Details</a>
+        </div>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <p>© 2025 Sediqa Baqeri. All rights reserved.</p>
+  </footer>
+</body>
+</html>
